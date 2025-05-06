@@ -6,3 +6,12 @@ class PersegiPanjang
 public : // akses modifier
     int panjang, lebar;
 
+public :
+
+    void input()
+    {
+        cout << " Masukkan Panjang : ";
+        cin >> panjang;
+        cout << "Masukkan Lebar : ";
+        cin >> lebar;
+   }
